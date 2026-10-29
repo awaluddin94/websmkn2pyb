@@ -1,2 +1,0 @@
-link github website smkn 2 panyabungan
-https://github.com/awaluddin94/websmkn2pyb.git
