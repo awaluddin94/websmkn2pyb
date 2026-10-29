@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Resmi SMK Negeri 2 Panyabungan</title>
+</head>
+<body align="center">
+
+    <center>
+
+        <!-- HEADER & NAVIGASI MENU -->
+        <header>
+            <h1>SMK NEGERI 2 PANYABUNGAN</h1>
+            <p><i>"Mencetak Generasi Unggul, Cerdas, dan Berkarakter"</i></p>
+            <hr width="80%">
+            
+            <!-- Menu Navigasi -->
+            <nav>
+                <a href="index.html">Beranda</a> | 
+                <a href="jurusan.html">Jurusan</a> | 
+                <a href="unggulan.html">Pusat Unggulan</a> |  
+                <a href="tentang.html">Tentang Kami</a> | 
+                <a href="formdaftar.html"><b>Form Pendaftaran</b></a>
+            </nav>
+            <hr width="80%">
+        </header>
+
+        <!-- 6. FORM PENDAFTARAN -->
+        <section id="pendaftaran">
+            <h2 style="color: blue">Form Pendaftaran Siswa Baru</h2>
+            <p>Isi formulir berikut untuk mendaftar sebagai calon siswa baru:</p>
+
+            <form action="#" method="POST">
+                <table cellpadding="8" cellspacing="0" border="1">
+                    <tr>
+                        <td align="right"><label for="nama">Nama Lengkap:</label></td>
+                        <td align="left"><input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required size="30"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="nisn">NISN:</label></td>
+                        <td align="left"><input type="number" id="nisn" name="nisn" placeholder="Contoh: 0012345678" required size="30"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="tempat_lahir">Tempat, Tgl Lahir:</label></td>
+                        <td align="left">
+                            <input type="text" id="tempat_lahir" name="tempat_lahir" placeholder="Kota" required>
+                            <input type="date" id="tgl_lahir" name="tgl_lahir" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Jenis Kelamin:</td>
+                        <td align="left">
+                            <input type="radio" id="laki" name="jk" value="Laki-laki" required>
+                            <label for="laki">Laki-Laki</label>
+                            <input type="radio" id="perempuan" name="jk" value="Perempuan">
+                            <label for="perempuan">Perempuan</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="pilihan_jurusan">Pilihan Jurusan:</label></td>
+                        <td align="left">
+                            <select id="pilihan_jurusan" name="pilihan_jurusan" required>
+                                <option value="">-- Pilih Jurusan --</option>
+                                <option value="TKJ">Teknik Komputer & Jaringan</option>
+                                <option value="RPL">Rekayasa Perangkat Lunak</option>
+                                <option value="TKR">Teknik Kendaraan Ringan</option>
+                                <option value="DKV">Desain Komunikasi Visual</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="telepon">Nomor HP/WA:</label></td>
+                        <td align="left"><input type="tel" id="telepon" name="telepon" placeholder="081234567890" required size="30"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="email">Email Active:</label></td>
+                        <td align="left"><input type="email" id="email" name="email" placeholder="contoh@email.com" required size="30"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="alamat">Alamat Domisili:</label></td>
+                        <td align="left">
+                            <textarea id="alamat" name="alamat" rows="3" cols="30" placeholder="Alamat lengkap..." required></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="left">
+                            <br>
+                            <button type="submit">Kirim Pendaftaran</button>
+                            <button type="reset">Batal / Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <hr width="80%">
+            <p>&copy; 2026 SMK Negeri 2 Panyabungan. All Rights Reserved.</p>
+        </footer>
+
+    </center>
+
+</body>
+</html>
